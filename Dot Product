@@ -1,0 +1,5 @@
+v1x = int(input("Whats the x coordinate of the first vector? "))
+v1y  = int(input("Whats the y cord of the first vector "))
+v2x = int(input("Whats the x coordinate of the second vector? "))
+v2y  = int(input("Whats the y cord of the second vector "))
+

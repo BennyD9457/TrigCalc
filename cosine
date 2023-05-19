@@ -1,0 +1,36 @@
+import math 
+
+MI = input("What information do you Have? \n " 
+"1 = Side A angle A and angle b\n"
+"2 = Side A angle A and angle C\n"
+"3 = side B angle B and angle A\n"
+"4 = side B angle B and angle C\n"
+"5 = side C angle C and angle b\n"
+"6 = side a angle A and angle b\n"
+)
+
+
+
+if 1:
+    a = float(input("Whats the length of side a? "))
+    A = float(input("Whats the angle  of side a? "))
+    B = float(input("Whats the angle  of side b? "))  
+    As = math.radians(A)
+    Bs= math.radians(B)
+    
+    bfs = a * math.sin(Bs) /math.sin(As)
+    print("The missing Legth",bfs )
+
+elif 3:
+    a = float(input("Whats the length of side a? "))
+    A = float(input("Whats the angle  of side a? "))
+    c = float(input("Whats the side of c? "))
+    
+    A = math.radians(A)
+    B= math.radians(B)
+    b = a * math.sin(c) /math.sin(A)
+    print("The missing length",b)
+
+else:
+    print("error")
+    

@@ -1,0 +1,34 @@
+import math
+
+ML= input("What length is misisng? ")
+print(ML)
+if ML=="side a":
+    b=int(input("What is side b? "))
+    c=int(input("What is side c? "))
+    c2=c * c
+    b2=b * b
+    a2=c2-b2
+    a=math.sqrt(a2)
+    print(a) 
+
+elif ML=="side b":
+    a=int(input("What is side a? "))
+    c=int(input("What is side c? "))
+    c2=c * c
+    a2=a * a
+    b2=c2-a2
+    b=math.sqrt(b2)
+    print(b) 
+
+else:
+    a=int(input("What is side a? "))
+    b=int(input("What is side b? "))  
+    a2=a * a
+    b2=b *b 
+    c2=b2 - a2
+    c=math.sqrt(c2)
+    print(c)
+
+
+
+
